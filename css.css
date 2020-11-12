@@ -1,0 +1,56 @@
+ /* Codigo top navbar */
+ /* Codigo da barra de pesquisa */
+ 
+ .topnav input[type=text] {
+     float: center;
+     padding: 6px;
+     border: none;
+     margin-top: 25px;
+     margin-left: 200px;
+     font-size: 17px;
+ }
+ /* Butão da top nav */
+ 
+ .topnav button {
+     border: none;
+     background-color: #980000;
+     color: whitesmoke;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 4px 2px;
+     cursor: pointer;
+     float: right;
+ }
+ /* Corpo */
+ 
+ body {
+     background-color: whitesmoke;
+     font-family: "Arial";
+ }
+ 
+ .nav {
+     top: 0;
+     bottom: 0;
+     background-color: #999999;
+     border-radius: 10px;
+     box-shadow: 5px 7px 10px rgba(0, 0, 0, .5);
+ }
+
+.nav ul {
+    position:relative;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    display: flex;
+    align-items: center;
+    font-family: arial;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 30px;
+    height: 50px;
+}
