@@ -2,7 +2,6 @@
          /* Codigo da barra de pesquisa */
          
          .topnav input[type=text] {
-             float: center;
              padding: 6px;
              border: none;
              margin-top: 25px;
@@ -29,10 +28,7 @@
              background-color: whitesmoke;
              font-family: "Arial";
          }
-         
-         {
-             box-sizing: border-box;
-         }
+
          /* NAV BAR*/
          
          .navbar {
@@ -185,9 +181,13 @@
          
          .Produtos_destaque {
              box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2);
-             position: flex;
          }
          
          .Produtos_destaque h1 {
              font-size: 25px;
          }
+
+         main {
+            display: flex;
+            justify-content: center;
+          }

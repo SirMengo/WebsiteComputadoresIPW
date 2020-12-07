@@ -2,7 +2,6 @@
  /* Codigo da barra de pesquisa */
  
  .topnav input[type=text] {
-     float: center;
      padding: 6px;
      border: none;
      margin-top: 25px;
@@ -32,9 +31,6 @@
      font-family: "Arial";
  }
  
- {
-     box-sizing: border-box;
- }
  /* NAV BAR*/
  
  .navbar {
