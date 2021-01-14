@@ -1,0 +1,35 @@
+.caixa{
+    border-color: rgb(27, 25, 25);
+    background-color: rgb(141, 141, 141);
+    border-style: solid;
+    border-width: 1px;
+    margin: 5% 5%;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Arial";
+}
+
+div img{
+    width: 10%;
+    height: 10%;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.produto{
+    margin-left:2%;
+    font-size: 150%;
+}
+
+.preco{
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: 2%;
+}
