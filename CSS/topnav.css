@@ -81,7 +81,7 @@
         
         .dropdown-content .header {
             background: #980000;
-            padding: 3px;
+            padding: 16px;
             color: white;
         }
         
@@ -107,24 +107,13 @@
             text-align: left;
         }
         
-        .produtos{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            flex-flow: wrap row;
-            margin-top: 40px;
+        .column a:hover {
+            background-color: #ddd;
         }
-
-        .prodind{
-            margin-left: 40px;
-            margin-right: 40px;
-        }
+        /* Clear floats after the columns */
         
-        .nomeprod{
-            text-align: center;
-        }
-
-        .preco{
-            text-align: center;
-            font-weight: bold;
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
         }

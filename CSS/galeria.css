@@ -1,0 +1,73 @@
+         /* Gallery */
+         
+         .galeria {
+             width: 60%;
+         }
+         
+         .galeria img {
+             width: 100%;
+         }
+         
+         .galeria ul {
+             list-style-type: none;
+             line-height: 0;
+         }
+         
+         .galeria .galeria--previa {
+             width: 74%;
+             float: left;
+             margin-right: 2%;
+         }
+         
+         .galeria .galeria--thumb {
+             width: 22.2%;
+             float: left;
+         }
+         
+         .galeria .galeria--thumb ul li {
+             margin-bottom: 10%;
+         }
+         /*PRODUTOS*/
+         
+         .card {
+             display: grid;
+             float: left;
+             box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+             max-width: 300px;
+             margin: 35px;
+             text-align: center;
+             font-family: arial;
+         }
+         
+         .price {
+             color: grey;
+             font-size: 22px;
+         }
+         
+         .card button {
+             border: none;
+             outline: 0;
+             padding: 12px;
+             color: white;
+             background-color: #000;
+             text-align: center;
+             cursor: pointer;
+             width: 80%;
+             font-size: 18px;
+         }
+         
+         .card button:hover {
+             opacity: 0.7;
+         }
+         
+         .Produtos_destaque {
+             box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2);
+         }
+         
+         .Produtos_destaque h1 {
+             font-size: 25px;
+         }
+
+
+
+          
