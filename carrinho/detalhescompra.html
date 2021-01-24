@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/carrinho.css">
+    <script src="../JS/verificar.js"></script>
+    <title>Carrinho</title>
+</head>
+<body>
+    <a href="carrinho.html"><img src="../Logo.png" alt="MCenter Tech" style="vertical-align: top;"></a>
+    <p href="carrinho.html">🢀 Voltar ao carrinho</p>
+    <div class="bordas">
+    <form>
+    <h1>Informações de entrega e pagamento:</h1><br>
+    Porfavor preencha todos os campos não opcionais.<br>
+    <h2>Dados Pessoais:</h2>
+    <form></form>
+    Nome:<input type="text" placeholder="Nome" id="Nome"> Apelido:<input type="text" placeholder="Apelido" id="Apelido"><br>
+    NIF:<input type="number" placeholder="NIF" id="NIF"> Empresa (opcional):<input type="text" placeholder="Empresa"><br>
+    Telemovel:<input type="number" placeholder="Telemovel" id="Tlm"><br>
+    </form>
+
+    <form>
+    <h2>Morada de envio:</h2><br>
+    Rua: <input type="text" placeholder="Rua..." id="Rua">Numero: <input type="text" placeholder="Ex: 2B" id="Num"><br>
+    Informação opcional: <input type="text" placeholder="Andar, bloco..."><br>
+    Código Postal: <input type="text" placeholder="Ex: 2900-440" id="Postal"> Cidade: <input type="text" placeholder="Cidade" id="Cidade"><br>
+    País: <input type="text" placeholder="País" id="Pais"> Distrito: <input type="text" placeholder="Distrito" id="Distrito">
+    </form>
+
+    <form>
+    <h2>Informações do cartão de crédito:</h2>
+    Número do cartão: <input type="number" placeholder="Nº cartão" id="NCart"><br>
+    Data de expiração: <input type="text" placeholder="MM/AA" id="Exp"> CVC/CVV: <input type="text" placeholder="123" id="CVV"><br>
+    Nome de proprietario: <input type="text" placeholder="John Cole Doe" id="Prop">
+    </form>
+
+    <button onclick="verificar()">Continuar</button>
+    </div>
+
+</body>
+</html>

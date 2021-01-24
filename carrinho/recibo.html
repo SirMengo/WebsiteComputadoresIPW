@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/recibo.css">
+    <script src="../JS/imprimir.js"></script>
+    <title>Carrinho</title>
+</head>
+<body>
+    <img src="../Logo.png" alt="MCenter Tech" style="vertical-align: top;">
+    <div class="informacoes bordas">
+        Rua dos Silvestres 10F<br>
+        2900-328 Setúbal<br>
+        Portugal<br>
+        Nº Contribuinte: 111111111<br>
+        Capital Social 15000.00 Euro<br>
+        Iban: PT00 0000 0000 0000 0000 0000 0<br>
+        Email: geral@mcentertech.pt<br>
+
+        <div class="recibo">
+            <div class="items">
+                <p class="produtof">Item(s):</p>
+                <p class="precof">Preço:</p>
+            </div>
+
+            <div class="items">   
+                <p class="produtof">Aorus Nvidia RTX 3090</p>
+                <p class="precof">1699.00€</p>
+            </div>
+            <div class="items">   
+                <p class="produtof">Motherboard ATX Asus ROG Strix Z490-H Gaming </p>
+                <p class="precof">243.90€</p>
+            </div>
+            <div class="items">   
+                <p class="produtof">G.SKILL Trident Z RGB 16GB (2x8GB) DDR4-2400MHz CL15 Preta</p>
+                <p class="precof">99.10€</p>
+            </div>
+            <p class="totalf"></p>
+            <p class="totalf">Total:2042€</p><br>   
+            <button type="submit" onclick="imprimir()">Imprimir/Guardar</button>   
+        </div>
+    </div>
+
+  
+    
+</body>
+</html>

@@ -6,6 +6,12 @@
     margin: 5% 5%;
 }
 
+.bordas{
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
 body {
     background-color: whitesmoke;
     font-family: "Arial";
@@ -40,3 +46,18 @@ div img{
     margin-right: 2%;
     float: right;
 }
+
+button {
+    border: none;
+    background-color: #980000;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+}
+
+

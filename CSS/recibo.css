@@ -1,0 +1,42 @@
+.produtof{
+    font-size: 130%;
+    margin-left:2%;
+}
+
+.precof{
+    font-size: 130%;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.totalf{
+    font-size: 130%;
+    margin-left: auto;
+    margin-right: 2%;
+    float: right;
+}
+
+.recibo{
+    margin-top: 3%;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.informacoes{
+    font-size: 80%;
+}
+
+.bordas{
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+body {
+    font-family: "Arial";
+}
